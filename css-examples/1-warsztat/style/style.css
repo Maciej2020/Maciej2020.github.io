@@ -15,8 +15,8 @@ input,textarea,select {
     outline: none;
     border: 1px solid #2b4a64;
 }
-input:hover,
-textarea:hover{
+input:focus,
+textarea:focus{
     background-color: #4e708c;
     border: 1px solid #ffffff;
 }
