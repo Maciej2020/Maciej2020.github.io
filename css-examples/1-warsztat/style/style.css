@@ -1,0 +1,44 @@
+form{
+    background-color: #213b50;
+    width: 50%;
+    padding: 10px;
+    color: white;
+    box-sizing: padding-box;
+}
+
+input,textarea,select {
+display: block;
+width: 50%;
+background-color: #2b4a64;
+color: white;
+outline: none;
+border: none;
+}
+input:hover,
+textarea:hover{
+    background-color: #4e708c;
+    border: 1px solid #ffffff;
+}
+
+#message{
+    height: 50px;
+}
+
+input[type='radio'] {
+    display: inline-block;
+    width: auto;
+}
+
+input[type='checkbox']{
+    display: inline-block;
+    width: auto;
+}
+
+input[type='submit']{
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    background-color: green;
+    margin-top: 20px;
+}
+
