@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/xqkdlabn" method="post">
+        <label for="imie">Imie:</label>
+        <br>
+        <input type="text" name="imie" id="imie" required>
+        <br>
+        <label for="nazwisko">Nazwisko:</label>
+        <br>
+        <input type="text" name="nazwisko" id="nazwisko" required>
+        <br>
+        <label for="mail">Email:</label>
+        <br>
+        <input type="email" name="mail" id="mail" required>
+        <br>
+        <label for="telefon">Telefon:</label>
+        <br>
+        <input type="tel" name="telefon" id="telefon" required>
+        <br>
+        <label for="wybor">Miasto:</label>
+        <br>
+        <select name="wybor" id="wybor">
+            <option value="wybor1">Kraków</option>
+            <option value="wybor2">Warszawa</option>
+            <option value="wybor3">Gdansk</option>
+        </select>
+        <br>
+        <label>Płeć:</label>
+        <br>
+        <input type="radio" name="plec" id="mezczyzna" checked>
+        <label for="mezczyzna">Mężczyzna:</label>
+        <br>
+        <input type="radio" name="plec" id="kobieta">
+        <label for="kobieta">Kobieta:</label>
+        <br>
+        <label for="wiadomosc">Wiadomość:</label>
+        <br>
+        <textarea name="wiadomosc" id="wiadomosc" cols="30" rows="10" required></textarea>
+        <br>
+        <input type="checkbox" name="zgoda" id="zgoda" required>
+        <label for="zgoda">Wyrażam zgode na przetwarzanie danych osobowych:</label>
+        <br>
+        <button type="submit" id="btn">Wyślij</button>
+    </form>
+</body>
+
+</html>
