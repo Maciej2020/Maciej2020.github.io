@@ -29,6 +29,7 @@ h2{
 }
 .head::before{
     content: "";
+    z-index:10;
     width: 100%;
     height: 100%;
     clip-path: polygon(0% 0%, 30% 0%, 0% 100%);
