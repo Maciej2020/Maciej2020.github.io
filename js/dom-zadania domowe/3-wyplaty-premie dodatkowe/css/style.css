@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h2,h3{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+#title{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+#title > *{
+    border: 1px solid black;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 145, 0, 0.829);
+}
+
+#pracownicy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(21, 47, 197, 0.836)
+}
+
+div[id*='pracownik']{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+div[id*='pracownik'] > *{
+    border: 1px solid black;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+}
+
+div[id*='pracownik'] > .pracownik,
+.pracownik{
+    background-color: #f5f544;
+}
+
+div[id*='pracownik'] > .czas,
+.czas{
+    background-color: #2595a8;
+}
+div[id*='pracownik'] > .czas:focus{
+    background-color: rgba(37, 148, 168, 0.425);
+}
+
+div[id*='pracownik'] > .stawka,
+.stawka{
+    background-color: #35b835;
+}
+div[id*='pracownik'] > .stawka:focus{
+    background-color: rgba(53, 184, 53, 0.823);
+}
+
+div[id*='pracownik'] > .wyplata,
+.kwota{
+    background-color: #ee82ee;
+}
+
+#oblicz{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(0, 128, 128);
+    border: 1px solid #000;
+    text-transform: uppercase;
+}
+#oblicz:hover{
+    background-color: rgb(5, 109, 109);
+}
+
+.najlepsi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(218, 165, 32);
+}
+div[id*='najlepszy']{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div[id*='najlepszy'] > *{
+     border: 1px solid black;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+}
